@@ -1,5 +1,5 @@
 import pytest
-from main import parse_grid, grid_shortest_path
+from hw05.main import parse_grid, grid_shortest_path
 
 def test_parse_finds_start_and_target():
     lines = [
